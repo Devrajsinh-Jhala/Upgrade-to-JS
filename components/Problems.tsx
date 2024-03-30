@@ -6,8 +6,8 @@ import { IoMdMail } from "react-icons/io";
 type Props = {}
 const Problems = (props: Props) => {
   return (
-    <section id="problems" className="my-5">
-        <section className="flex items-center space-x-10 justify-center">
+    <section id="problems" className="my-5 px-5">
+        <section className="flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10 justify-center">
             <Card className="w-[400px]">
                 <CardHeader>
                     <CardTitle>Problems with old code</CardTitle>
