@@ -32,7 +32,7 @@ const Problems = (props: Props) => {
                 <CardContent>
                     <ul className="list-disc text-sm">
                         <li>We convert your entire code to javascript framework of your choice thereby decreasing load times by 50%-60% and thereby increasing user engagement by 30%-40%.</li>
-                        <li> We will optimize your application's performance, resulting in a 40-50% reduction in bounce rates and a 20-30% increase in page views per session,leading to higher engagement.</li>
+                        <li> We will optimize your application&apos;s performance, resulting in a 40-50% reduction in bounce rates and a 20-30% increase in page views per session,leading to higher engagement.</li>
                         <li>Our migration process will refactor your codebase into a modular, scalable architecture, reducing downtime by 30-40% during peak traffic periods.</li>
                     </ul>
                 </CardContent>
