@@ -13,7 +13,7 @@ const HeroSection = (props: Props) => {
         <p>Upgrade your old code! Make it modern, clean and performant 💯🚀</p>
       </div>
 
-      <div className=" text-sm sm:text-2xl md:text-5xl mt-2 flex items-center justify-center font-extrabold">
+      <div className=" text-lg sm:text-2xl md:text-5xl mt-2 flex items-center justify-center font-extrabold">
         <TypeWriterEffect />
         Codebase
       </div>
