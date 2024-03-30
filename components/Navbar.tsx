@@ -11,7 +11,7 @@ const Navbar = (props: Props) => {
     { name: "FAQs", link: "#faqs" },
   ];
   return (
-    <nav className="flex items-center p-4  justify-between">
+    <nav className="flex  items-center p-4  justify-between">
       <Link href={"#"}>
         <div className="flex justify-center font-extrabold items-end space-x-1">
           <p className="text-lg">Upgradeto</p>
