@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import Problems from "@/components/Problems";
+import ProcessCardComponent from "@/components/ProcessCardComponent";
 
 export default function Home() {
   return (
@@ -7,10 +8,11 @@ export default function Home() {
       {/* Hero Section */}
       <HeroSection />
 
-      {/* TODO: Problems vs Solutions Card Component */}
+      {/* Problems vs Solutions Card Component */}
       <Problems />
 
       {/* TODO: Process */}
+      <ProcessCardComponent />
 
       {/* TODO: FAQs */}
     </section>
