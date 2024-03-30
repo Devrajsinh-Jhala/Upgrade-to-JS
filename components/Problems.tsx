@@ -7,13 +7,13 @@ type Props = {}
 const Problems = (props: Props) => {
   return (
     <section id="problems" className="my-5 px-5">
-        <section className="flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10 justify-center">
-            <Card className="w-[400px]">
+        <section className="flex flex-col  md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10 justify-center">
+            <Card className=" w-full sm:w-[400px]">
                 <CardHeader>
                     <CardTitle>Problems with old code</CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <ul className="list-disc text-sm">
+                    <ul className="list-disc text-xs sm:text-sm">
                         <li>Legacy PHP Code often suffer from slow performance which could translate to a 30-40% increase in bounce rates and a 15-25% drop in conversion rates.</li>
                         <li> Legacy codebases may struggle to handle increased traffic and user demands, resulting in potential downtime and a loss of 20-30% in revenue during peak periods.</li>
                         <li>Suboptimal User Experience can lead to a 25-35% decrease in user engagement and a 15-20% decrease in customer retention rates.</li>
@@ -25,12 +25,12 @@ const Problems = (props: Props) => {
                     </CardDescription>
                 </CardFooter>
             </Card>
-            <Card className="w-[400px]">
+            <Card className="w-full sm:w-[400px]">
                 <CardHeader>
                     <CardTitle>Solutions we offer</CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <ul className="list-disc text-sm">
+                    <ul className="list-disc text-xs sm:text-sm">
                         <li>We convert your entire code to javascript framework of your choice thereby decreasing load times by 50%-60% and thereby increasing user engagement by 30%-40%.</li>
                         <li> We will optimize your application&apos;s performance, resulting in a 40-50% reduction in bounce rates and a 20-30% increase in page views per session,leading to higher engagement.</li>
                         <li>Our migration process will refactor your codebase into a modular, scalable architecture, reducing downtime by 30-40% during peak traffic periods.</li>
@@ -45,7 +45,7 @@ const Problems = (props: Props) => {
         </section>
 
         <section className="flex mt-5 space-y-2 items-center flex-col justify-center">
-            <p className="italic text-muted-foreground">Hence, you need someone to do the ugly work for you</p>
+            <p className="italic text-center text-sm sm:text-base text-muted-foreground">Hence, you need someone to do the ugly work for you</p>
             <Button variant={"default"} size={"lg"} asChild>
                 <Link href={"#pricing"}>
                 <span className="flex items-center space-x-2">

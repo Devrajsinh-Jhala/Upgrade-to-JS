@@ -9,11 +9,11 @@ const HeroSection = (props: Props) => {
       id="#"
       className="h-[85vh] px-5 md:px-0 flex flex-col text-center items-center justify-center"
     >
-      <div className="bg-secondary px-4 py-1 rounded-full text-xs sm:text-sm">
+      <div className="bg-secondary px-4 py-1 rounded-full text-[10px] sm:text-sm">
         <p>Upgrade your old code! Make it modern, clean and performant 💯🚀</p>
       </div>
 
-      <div className=" text-2xl md:text-5xl mt-2 flex items-center justify-center font-extrabold">
+      <div className=" text-sm sm:text-2xl md:text-5xl mt-2 flex items-center justify-center font-extrabold">
         <TypeWriterEffect />
         Codebase
       </div>
@@ -26,7 +26,7 @@ const HeroSection = (props: Props) => {
         </p>
       </div>
 
-      <div className="flex items-center mt-5 justify-center space-x-5">
+      <div className="flex flex-col sm:flex-row space-y-5 sm:space-y-0 space-x-0 items-center mt-5 justify-center sm:space-x-5">
         <Button asChild size={"lg"}>
           <Link href={"#pricing"}>Book Now</Link>
         </Button>
