@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/ui/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Upgradeto.JS | JavaScript Development Agency",
+  title: "UpgradetoJS | JavaScript Development Agency",
   description:
     "Have old unoptimized code? Upgrade your code to modern standards and dive deep into the world of Performance and Optimization. Don't worry we will do all the things for you at minimal price!",
 };
